@@ -75,13 +75,14 @@
                 </div>
             </div>
             <h2>grid alignment</h2>
-            <div class="row align-item-center">
-                <div class="col-3">
+            <div class="row align-items-center">
+                <div class="col-3 align-self-start">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium deleniti nisi similique
                     excepturi eos nemo voluptatum. Laudantium dolorem quo, unde ex, modi, commodi adipisci totam
                     quisquam suscipit sequi minima.
                 </div>
-                <div class="col-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fuga vero provident
+                <div class="col-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fuga vero
+                    provident
                     illum impedit nostrum, ad repellendus atque, voluptatum, cupiditate veritatis? In veniam repellat ut
                     harum officiis error dicta tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Consequuntur alias tenetur labore soluta impedit veritatis eaque modi dolorem at rerum itaque
@@ -93,6 +94,49 @@
                     Commodi aliquid dolorum nulla.
                 </div>
             </div>
+        </div>
+
+        <h3>jstf contn</h3>
+        <div class="row border justify-content-center justify-content-lg-start justify-content-xl-between">
+            <div class="col-md-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa consequuntur
+                error accusantium labore aliquid perferendis deleniti, minus obcaecati! Repellendus eligendi modi
+                impedit, maxime architecto facilis iste ea laboriosam soluta accusantium.
+            </div>
+            <div class="col-md-4">
+                LLorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et
+                assumenda qui at
+                iste similique inventore fugit earum accusamus doloremque, vero tenetur, amet deleniti dolorem sed!
+                Commodi aliquid dolorum nulla.
+            </div>
+        </div>
+        <!--FORM-->
+        <h3 class="display-3">form</h3>
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="email">e~mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="emaill">
+                </div>
+                <div class="form-group col">
+                    <label for="password">passwd</label>
+                    <input type="password" class="form-control" id="password" placeholder="put da password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="state">state</label>
+                <select class="form-control" name="state" id="state">
+                    <option value="sbr">siberia</option>
+                    <option value="mskv">moskva</option>
+                    <option value="lbn">lubin</option>
+                </select>
+            </div>
+        </form>
+        <div class="custom-control custom-label">
+            <input class="custom-control-label" type="checkbox" value="" id="tos">
+            <label class="custom-control-label" for="tos">
+                accept the oath
+            </label>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
